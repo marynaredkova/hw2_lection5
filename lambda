@@ -1,0 +1,34 @@
+#lambda
+(lambda n,a,b:n<b and n>a)(5,3,8)
+
+
+
+
+#список з квадратів чисел 2.0
+def square(list_):
+    list2 = []
+    for item in list_:
+        list2.append(item**2)
+    return print(list2)
+square([9,7,2,13,17])
+
+
+
+#список квадратів з map
+my_list = [2,5,8]
+
+def square(item):
+    return item**2
+
+print(list(map(square, my_list)))
+
+
+
+#список квадратів з розумних списків
+list_ = [4,5,8]
+list2 = [item**2 for item in list_]
+print(list2)
+
+
+
+
